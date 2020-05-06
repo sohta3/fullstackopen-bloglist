@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QyIiwiaWQiOiI1ZWIwNGUzM2IwNjYzNzIxY2ZiMzA5ZGIiLCJpYXQiOjE1ODg2MTMyNjZ9.LlkIiXXh9huMLoqPbzgyHTFTMOjabhs52mFx2pfSKJg
+
+{
+    "title": "hello",
+    "author": "haris",
+    "url": "google.com",
+    "likes": 9000
+}
