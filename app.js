@@ -6,7 +6,6 @@ const cors = require("cors");
 const blogsRouter = require("./controllers/blogs");
 const usersRouter = require("./controllers/users");
 const loginRouter = require("./controllers/login");
-const resetRouter = require("./controllers/reset");
 const mongoose = require("mongoose");
 const middleware = require("./utils/middleware");
 app.use(cors());
